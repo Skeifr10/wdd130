@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Rock+Salt&display=swap');
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+nav a {
+    text-align: center;
+    color:#582F0E;
+    text-decoration: none;
+    padding: 35px;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+    font-family: "Rock Salt", Verdana;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
+    background-color: #A4AC86;
+}
+body {
+    background-color:white;
+    font-family: Arial, "Times New Roman", Garamond;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin:0;
+}
+header {
+    background-color:#3D7E55;
+}
+nav a:hover {
+    background-color:#A4AC86;
+    color:white;
+}
+.home-title {
+    color:#582F0E;
+    font-family: "Rock Salt", Verdana;
+    font-size: 2em;
+    margin-top: 10px;
+}
+h4 {
+    color:black;
+}
+.book, .join {
+    background-color:#A4AC86;
+    color:#582F0E;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.book:hover, .join:hover {
+    background-color:#3D7E55;
+    color:white;
+}
+.msg {
+    background-color:#582F0E;
+    line-height:  1.5em;
+    padding: 35px;
+}
+.msg h2 {
+    color:white;
+    font-family: "Rock Salt", Verdana;
+}
+.msg p {
+    color:white;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+footer {
+    background-color:#3D7E55;
+    color:white;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer a {
+    color:#582F0E;
+    text-decoration: none;
+}
+footer a:hover {
+    color:white;
+}
+.logo {
+    width: 80px;
+    border-radius: 50%;
+}
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+#hero-img {
+    width: 100%;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
