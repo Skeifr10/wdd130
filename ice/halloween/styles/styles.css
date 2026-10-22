@@ -40,7 +40,6 @@ img {
     margin-left: auto;
     margin-right: auto;
     border-radius: 8px;
-    filter: grayscale(100%);
     transition: transform 5s;
 }
 img:hover {
