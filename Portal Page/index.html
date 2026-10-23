@@ -7,12 +7,118 @@
 </head>
 <body>
     <header>
-        <nav>
+        <div class="logo">
+            <img src="images/mountainLogo.jpeg" alt="Logo">
+        </div>
+        <h1>Cameron Skaife</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </header>
+    <nav>
             <a href="*">Home</a>
             <a href="*">WWR</a>
             <a href="*">ICE</a>
             <a href="*">About me</a>
-        </nav>
-    </header>
+    </nav>
+    <main>
+        <section id="welcome">
+            <h2>Welcome to my Website</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <!-- Welcome Image, add later when I have it -->
+            <img id="welcome-image" src="" alt="Welcome Image">
+        </section>
+        <!-- Edit later with featured projects -->
+        <section>
+            <h2>Featured Projects</h2>
+            <article class="project1">
+                <h3>Project 1</h3>
+                <!-- Short description of the project -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <!-- List of info for project 1-->
+                <ul>
+                    <li>Info 1</li>
+                    <li>Info 2</li>
+                    <li>Info 3</li>
+                </ul>
+                <!-- Link to project 1, edit later -->
+                <a href="">View Project 1</a>
+            </article>
+            <article class="project2">
+                <h3>Project 2</h3>
+                <!-- Short description of the project -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <!-- List of info for project 2-->
+                <ul>
+                    <li>Info 1</li>
+                    <li>Info 2</li>
+                    <li>Info 3</li>
+                </ul>
+                <!-- Link to project 2, edit later -->
+                <a href="">View Project 2</a>
+            </article>
+        </section>
+        <!-- Project summary table and maybe change id's later if needed -->
+        <section id="project-summary">
+        <h2>Project Summary</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Project</th>
+                        <th>Description</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <!--Edit later if I want to change their names-->
+                <tbody>
+                    <tr> 
+                        <td>Project 1</td>
+                        <td>My first Website Project</td>
+                        <td>In Progress</td>
+                    </tr>
+                    <!--Probably edit in progress-->
+                    <tr>
+                        <td>Project 2</td>
+                        <td>My second Website Project</td>
+                        <td>In Progress</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="goals">
+            <h4>My goals</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </section>
+        <section id="skills">
+            <h5>My Skills</h5>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Python</li>
+                <li>SQL</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h6>Contact Me</h6>
+            <p>Please use the form below to get in touch with me.</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <!-- Edit links later-->
+        <p>
+            <a href="">Home</a> |
+            <a href="">WWR</a> |
+            <a href="">ICE</a> |
+            <a href="">About Me</a>
+        </p>
+        <p>&copy; 2026 Cameron Skaife. All rights reserved.</p>
+    </footer>
 </body>
 </html>
